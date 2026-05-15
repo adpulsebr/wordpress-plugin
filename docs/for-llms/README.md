@@ -8,7 +8,7 @@ This directory contains documentation for AI assistants (Claude, GPT, o1, etc.) 
 
 When an LLM is working on this codebase:
 
-1. **Start with `CLAUDE.md`** (root directory) for high-level understanding
+1. **Start with `AGENTS.md`** (root directory) for high-level understanding
 2. **Read `wordpress-plugin.md`** in this directory for detailed plugin architecture
 3. **Refer to this file** for documentation structure and navigation
 4. **Check implementation plan** at `/Users/gurodrigues/.claude/plans/streamed-weaving-teapot.md`
@@ -17,7 +17,7 @@ When an LLM is working on this codebase:
 
 ```
 wordpress-plugin/
-├── CLAUDE.md                          # Root LLM guide (START HERE)
+├── AGENTS.md                          # Root LLM guide (START HERE)
 └── docs/
     └── for-llms/                      # This directory
         ├── README.md                  # This file
@@ -105,21 +105,21 @@ $cookie_parts['secure'] = is_ssl();          // HTTPS if SSL
 | `includes/class-adpulse-settings.php` | Settings API | Settings registration, sanitization |
 | `includes/class-adpulse-admin-menu.php` | Admin menu | Menu registration, page rendering |
 | `includes/class-adpulse-settings-page.php` | Settings page | UI rendering, status display |
-| `CLAUDE.md` | Root LLM guide | Architecture, common pitfalls, how-to guides |
+| `AGENTS.md` | Root LLM guide | Architecture, common pitfalls, how-to guides |
 
 ## Common Tasks
 
 ### Adding a New Settings Field
 
-See `CLAUDE.md` section "Adding New Features"
+See `AGENTS.md` section "Adding New Features"
 
 ### Adding a New Proxy Route
 
-See `CLAUDE.md` section "Adding New Features"
+See `AGENTS.md` section "Adding New Features"
 
 ### Adding Data Layer Properties
 
-See `CLAUDE.md` section "Adding New Features"
+See `AGENTS.md` section "Adding New Features"
 
 ## Testing Checklist
 
@@ -148,7 +148,7 @@ See `CLAUDE.md` section "Adding New Features"
 
 - **Implementation Plan**: `/Users/gurodrigues/.claude/plans/streamed-weaving-teapot.md`
 - **Plugin Details**: `wordpress-plugin.md` (this directory)
-- **Root Guide**: `CLAUDE.md` (plugin root)
+- **Root Guide**: `AGENTS.md` (plugin root)
 
 ## Support
 

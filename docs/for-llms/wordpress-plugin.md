@@ -21,7 +21,7 @@ wordpress-plugin/
 ├── templates/
 │   └── settings-page.php                   # Settings form template
 ├── readme.txt                              # WordPress.org readme
-├── CLAUDE.md                               # LLM documentation (root)
+├── AGENTS.md                               # LLM documentation (root)
 └── docs/
     └── for-llms/
         ├── README.md
@@ -479,7 +479,7 @@ The plugin checks for these consent indicators:
 
 ## Related Documentation
 
-- **Root Guide**: `CLAUDE.md` (plugin root)
+- **Root Guide**: `AGENTS.md` (plugin root)
 - **LLM Hub**: `README.md` (this directory)
 - **Implementation Plan**: `/Users/gurodrigues/.claude/plans/streamed-weaving-teapot.md`
 - **WordPress.org**: https://wordpress.org/plugins/adpulse/
